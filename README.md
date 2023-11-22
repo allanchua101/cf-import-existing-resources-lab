@@ -1,2 +1,4 @@
-# cf-import-existing-resources-lab
-POC for using ImportExistingResources feature of Cloud Formation
+# Importing Existing Resources using Cloud Formation ImportExistingResources
+
+POC for using newly launched `ImportExistingResources` feature of AWS Cloud Formation.
+
