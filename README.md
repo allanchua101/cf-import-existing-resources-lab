@@ -2,7 +2,7 @@
 
 This repository is a POC for using newly launched `ImportExistingResources` feature of AWS CloudFormation ChangeSet API.
 
-### What Problems does this feature solve?
+### What problems does this feature solve?
 
 - Refactoring of a CloudFormation stack that exceeded the maximum number of CloudFormation resources (500 at the time of this article's writing).
 - The need to segregate stateful (DynamoDB, S3, SQS, MemoryDB, RDS, etc) vs disposable resources (Lambda, API Gateway, StepFunctions) between multiple CloudFormation stacks.
